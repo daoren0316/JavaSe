@@ -41,10 +41,19 @@ public class Demo {
 		
 		double newScore = avgScore + rise;
 		System.out.println("新的平均分为：" + newScore );
-		*/
+		
 		double num1 = 10.2;
 		int num2 = (int)num1;
 		System.out.println(num2);
+		*/
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("请输入张三的成绩：");
+		int zhangScore = sc.nextInt();
+		System.out.println("请输入李四的成绩：");
+		int liScore = sc.nextInt();
+		boolean isTrue = zhangScore > liScore;
+		System.out.println("张三的成绩比李四的成绩高吗?" + isTrue);
 	}
 
 }
